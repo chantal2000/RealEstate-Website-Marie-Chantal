@@ -1,0 +1,58 @@
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+h1 {
+    color: yellow;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 70px;
+    background-color: black;
+}
+
+a {
+    /* border-radius: 3220px; */
+    color: red;
+    text-align: center;
+    /* height: 40px;
+    width: 1200000px; */
+    margin: 450px;
+    margin-top: 10000000px;
+    font-size: 30px;
+    margin-left: 300px;
+    /* border: 10px solid; */
+    padding: 5px;
+    text-decoration: none;
+    border-color: black;
+    /* background-color: black; */
+}
+
+p {
+    background-color: white;
+}
+
+button:hover {
+    background-color: red;
+}
+
+.button {
+    font-size: 44px;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+    width: 100px;
+    height: 58px;
+    border-radius: 1z3px;
+    border-style: none;
+}
+
+.fa fa-arrow-right {
+    text-align: right;
+}

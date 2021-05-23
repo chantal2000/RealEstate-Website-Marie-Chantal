@@ -1,0 +1,125 @@
+    .nav {
+        color: white;
+        /* text-align: left; */
+        background-color: black;
+        /* font-size: 30px; */
+        padding-bottom: 10px;
+    }
+    
+    .nav-right {
+        text-align: right;
+        color: white;
+        /* padding: 20px; */
+        padding-bottom: 10px;
+        margin: 10px;
+    }
+    
+    a {
+        color: white;
+        font-size: 35px;
+        padding: 20px;
+    }
+    
+    body {
+        background-color: whitesmoke
+    }
+    
+    h3 {
+        text-align: center;
+        font-style: italic;
+        margin: 200px;
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+        font-weight: bolder;
+        font-size: 60px;
+        margin-bottom: 100px;
+        margin: 70px;
+    }
+    
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    
+    .column {
+        float: left;
+        width: 33.33%;
+    }
+    /* h1 {
+        color: yellow;
+    } */
+    
+    h2 {
+        text-align: center;
+        margin-top: 80px;
+        color: yellow
+    }
+    
+    .icon-bar {
+        width: 90px;
+        /* Set a specific width */
+        background-color: #555;
+        /* Dark-grey background */
+    }
+    
+    .icon-bar a {
+        display: block;
+        /* Make the links appear below each other instead of side-by-side */
+        text-align: center;
+        /* Center-align text */
+        padding: 16px;
+        /* Add some padding */
+        transition: all 0.3s ease;
+        /* Add transition for hover effects */
+        color: white;
+        /* White text color */
+        font-size: 36px;
+        /* Increased font-size */
+    }
+    
+    .icon-bar a:hover {
+        background-color: #000;
+        /* Add a hover color */
+    }
+    
+    .active {
+        background-color: #04AA6D;
+        /* Add an active/current color */
+    }
+    
+    p {
+        text-align: center;
+        font-style: italic;
+        font-size: 70px;
+        margin-top: 200px;
+    }
+    
+    a:hover {
+        background-color: red;
+    }
+    
+    h3 {
+        text-align: center;
+    }
+    
+    label {
+        color: bl
+    }
+    
+    ul {
+        border-width: 4px;
+    }
+    
+    button {
+        border-radius: 50px;
+    }
+    
+    .row {
+        background-color: #000;
+        text-decoration-color: yellow;
+    }
+    
+    h4 {
+        text-align: center;
+    }

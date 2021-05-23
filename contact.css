@@ -1,0 +1,19 @@
+row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+input {
+    font-size: 30px;
+}
+
+button {
+    font-size: 40px;
+    border-radius: 300px;
+}

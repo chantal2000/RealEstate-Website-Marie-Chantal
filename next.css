@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    transform: translate(-40%, -40%);
+    margin: 300px;
+    padding: 0;
+    display: flex;
+    margin-left: 600px;
+}
+
+ul li {
+    list-style: none;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    margin: 0 10px;
+    border-radius: 50%;
+    transition: -5s;
+}
+
+ul li:hover {
+    background-color: blue;
+}
+
+
+/* ul li span {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 4pxsolid #fff;
+    transition: -8s;
+} */
+
+ul li.next span {
+    top: 50%;
+    right: 20%;
+    transform: translateY(-50%)rotate(-45deg);
+}
