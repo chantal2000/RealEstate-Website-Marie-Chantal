@@ -1,4 +1,4 @@
-row::after {
+.row::after {
     content: "";
     clear: both;
     display: table;
@@ -7,6 +7,13 @@ row::after {
 .column {
     float: left;
     width: 33.33%;
+}
+
+p {
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+    font-style: italic;
 }
 
 a {
@@ -61,14 +68,14 @@ button:hover {
 
 hr {
     width: 5px;
-    color: yellow;
+    color: yellowgreen;
 }
 
 h1 {
-    color: yellow;
+    color: yellowgreen;
     text-align: center;
     font-style: italic;
-    font-size: 80px;
+    font-size: 50px;
     background-color: black;
 }
 
@@ -79,4 +86,19 @@ h1 {
 
 a {
     border-radius: 50px;
+}
+
+i {
+    margin-left: 500px;
+}
+
+label {
+    text-align: center;
+    margin-left: 300px;
+    border-radius: 150%;
+    width: 500px;
+    height: 50px;
+    font-size: 30px;
+    color: yellowgreen;
+    background-color: black;
 }

@@ -1,4 +1,4 @@
-row::after {
+.row::after {
     content: "";
     clear: both;
     display: table;
@@ -6,14 +6,51 @@ row::after {
 
 .column {
     float: left;
+    margin-left: 860px;
     width: 33.33%;
 }
 
 input {
     font-size: 30px;
+    text-align: center;
 }
 
 button {
+    font-size: 30px;
+    border-radius: 10px;
+    color: yellowgreen;
+    /* background-color: black; */
+}
+
+i {
+    margin-left: 400px;
+}
+
+form {
+    text-align: center;
+}
+
+h3 {
+    color: black;
+    font-weight: bolder;
     font-size: 40px;
-    border-radius: 300px;
+    font-style: italic;
+    color: crimson;
+}
+
+.left {
+    text-align: left;
+    /* text-decoration: underline; */
+    margin-left: 45px;
+    text-decoration: none;
+}
+
+p {
+    font-size: 20px;
+}
+
+h1 {
+    color: black;
+    font-style: italic;
+    font-weight: bold;
 }
